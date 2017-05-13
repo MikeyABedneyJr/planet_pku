@@ -8,5 +8,5 @@ from django.shortcuts import render
 def index(request):
     return render(request, 'mainsite/index.html')
 
-# def index(request):
-#     return HttpResponse("Hello, world. You're on the landing page.")
+def about_pku(request):
+    return render(request, 'mainsite/about_pku.html')
