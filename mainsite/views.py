@@ -5,7 +5,8 @@ from django.shortcuts import render
 
 # Create your views here.
 
-
-
 def index(request):
-    return HttpResponse("Hello, world. You're on the landing page.")
+    return render(request, 'mainsite/index.html')
+
+# def index(request):
+#     return HttpResponse("Hello, world. You're on the landing page.")
