@@ -1,6 +1,6 @@
 from django.conf.urls import url
 
-from . import views
+from mainsite import views
 
 # Todo: add other views - about_pku is template
 urlpatterns = [

@@ -6,7 +6,7 @@ from django.shortcuts import render
 # Create your views here.
 
 def index(request):
-    return render(request, 'mainsite/index.html')
+    return render(request, 'index.html')
 
 def about_pku(request):
-    return render(request, 'mainsite/about_pku.html')
+    return render(request, 'about_pku.html')
