@@ -1,4 +1,9 @@
-<!--TODO: This code activates bootstrap. Should it live somewhere else? Build templates first-->
+<!--TODO: This code activates jQuery & bootstrap. Should it live somewhere else? Build templates first-->
+<!-- jquery -->
+<script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
+<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<!-- [/] jquery -->
+
 {# Load the tag library #}
 {% load bootstrap3 %}
 
@@ -8,6 +13,9 @@
 
 {# Display django.contrib.messages as Bootstrap alerts #}
 {% bootstrap_messages %}
+
+{% load staticfiles %}
+
 
 <nav class="navbar navbar-default">
   <div class="container-fluid">
