@@ -1,0 +1,17 @@
+/*  Navbar  */
+.navbar {
+  background: rgba(102, 102, 102, .5)
+}
+.navbar-brand {
+  padding: 0px;
+}
+.navbar-brand > img {
+  height: 20px;
+  padding: 15px;
+  width: auto;
+}
+/*  End navbar  */
+
+/*  HTML  */
+
+/*  End HTML  */
