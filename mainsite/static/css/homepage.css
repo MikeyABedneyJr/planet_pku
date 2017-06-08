@@ -73,23 +73,8 @@ hr.small {
     -o-background-size: cover;
 }
 
-/* About */
+/* Planet PKU in numbers */
 
-.about {
-    padding: 50px 0;
-}
-
-/* Services */
-
-.services {
-    padding: 50px 0;
-}
-
-.service-item {
-    margin-bottom: 30px;
-}
-
-/* Misc */
 h2 span {
    color: white;
    font: bold 24px/45px Helvetica, Sans-Serif;
@@ -97,4 +82,17 @@ h2 span {
    background: rgb(0, 0, 0); /* fallback color */
    background: rgba(0, 0, 0, 0.7);
    padding: 10px;
+}
+
+.pku-numbers {
+    padding: 50px 0;
+}
+
+.pku-numbers .row {
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+.pku-statistic {
+    margin-bottom: 30px;
 }
