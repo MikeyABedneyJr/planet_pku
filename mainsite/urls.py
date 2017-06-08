@@ -2,7 +2,6 @@ from django.conf.urls import url
 
 from mainsite import views
 
-# Todo: add other views - about_pku is template
 urlpatterns = [
     url(r'^$', views.index, name='index'),
     url(r'^about_us', views.about_us, name='about_us'),
@@ -13,4 +12,5 @@ urlpatterns = [
     url(r'^submit_recipe', views.submit_recipe, name='submit_recipe'),
     url(r'^user_agreement', views.user_agreement, name='user_agreement'),
     url(r'^view_recipe', views.view_recipe, name='view_recipe'),
+    url(r'^login', views.login, name='login'),
 ]

@@ -1,15 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta name="description" content="Online community & recipe sharing for those with PKU">
+    <meta name="author" content="Mikey Bedney">
     <title>Planet PKU</title>
     <link href="/static/css/homepage.css" rel="stylesheet">
-</head>
-<body>
-{% extends 'base.html' %}
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
 
-<h1>HERE ARE SOME BIG WORDS ON THE MAIN PAGE</h1>
-<!--{% include "base.html" %}-->
+</head>
+
+
+<body>
+{# Load the tag library #}
+{% load bootstrap3 %}
+
+{# Load CSS and JavaScript #}
+{% bootstrap_css %}
+{% bootstrap_javascript %}
+
+    <!-- Header -->
+    <header id="top" class="header">
+        <div class="text-vertical-center">
+            <h2>Welcome to Planet PKU!!</h2>
+            <p>Planet PKU is the ultimate PKU social community,<br>
+where recipes come to life.  By joining us you will join<br>
+a robust PKU foodie community where you can share <br>
+your recipes and ideas with thousands of PKU families!<br>
+Find our community on social media under the hashtag <strong><em>#planetPKU</em></strong>
+</p>
+            <br>
+            <a href="#about" class="btn btn-dark btn-lg">Join our community</a>
+            <br>
+            <div class="note">
+                Already a member? <a href="/mainsite/login.html">Click here</a> to sign in.
+            </div>
+        </div>
+    </header>
+
+    <!-- About -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Stylish Portfolio is the perfect theme for your next project!</h2>
+                    <p class="lead">This theme features some wonderful photography courtesy of <a target="_blank" href="http://join.deathtothestockphoto.com/">Death to the Stock Photo</a>.</p>
+                </div>
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
 
 
 </body>
+
 </html>

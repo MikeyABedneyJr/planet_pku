@@ -31,3 +31,6 @@ def user_agreement(request):
 
 def view_recipe(request):
     return render(request, 'view_recipe.html')
+
+def login(request):
+    return render(request, 'login.html')
