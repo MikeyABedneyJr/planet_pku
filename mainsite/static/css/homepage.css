@@ -24,6 +24,12 @@ body {
     font-weight: 200;
 }
 
+/* TODO: Remove default link behavior to have it show in color #008C00 */
+a span {
+  font-size: 2em;
+  text-decoration: none;
+}
+
 /* Custom Button Styles */
 
 .btn-dark {
@@ -72,6 +78,11 @@ hr.small {
     background-size: cover;
     -o-background-size: cover;
 }
+.note {
+  font-size: 0.9em;
+}
+
+
 
 /* Planet PKU in numbers */
 
