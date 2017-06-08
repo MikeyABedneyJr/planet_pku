@@ -1,26 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta name="description" content="Online community & recipe sharing for those with PKU">
-    <meta name="author" content="Mikey Bedney">
+
     <title>Planet PKU</title>
     <link href="/static/css/homepage.css" rel="stylesheet">
-    <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <!-- Custom Fonts -->
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
-
 </head>
 
-
 <body>
-{# Load the tag library #}
-{% load bootstrap3 %}
+{% extends 'base.html' %}
 
-{# Load CSS and JavaScript #}
-{% bootstrap_css %}
-{% bootstrap_javascript %}
+{% block content %}
 
     <!-- Header -->
     <header id="top" class="header">
@@ -33,7 +22,7 @@ your recipes and ideas with thousands of PKU families!<br>
 Find our community on social media under the hashtag <strong><em>#planetPKU</em></strong>
 </p>
             <br>
-            <a href="#about" class="btn btn-dark btn-lg">Join our community</a>
+            <a href="/mainsite/register.html" class="btn btn-dark btn-lg">Join our community</a>
             <br>
             <div class="note">
                 Already a member? <a href="/mainsite/login.html">Click here</a> to sign in.
@@ -42,12 +31,12 @@ Find our community on social media under the hashtag <strong><em>#planetPKU</em>
     </header>
 
     <!-- About -->
-    <section id="about" class="about">
+    <section id="pku-numbers" class="pku-numbers">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2>Stylish Portfolio is the perfect theme for your next project!</h2>
-                    <p class="lead">This theme features some wonderful photography courtesy of <a target="_blank" href="http://join.deathtothestockphoto.com/">Death to the Stock Photo</a>.</p>
+                  <h2><span>Planet PKU in numbers</span></h2>
+                    <p class="lead">Placehold text until more of the site is built out</p>
                 </div>
             </div>
             <!-- /.row -->
@@ -55,6 +44,7 @@ Find our community on social media under the hashtag <strong><em>#planetPKU</em>
         <!-- /.container -->
     </section>
 
+{% endblock %}
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
 
