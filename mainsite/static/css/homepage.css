@@ -16,6 +16,11 @@ body {
     vertical-align: middle;
     color: white;
 }
+.text-vertical-center span{
+  color: #008C00;
+  font-weight: bold;
+  font-style: italic;
+}
 
 .text-vertical-center h2 {
     margin: 0;
@@ -24,10 +29,10 @@ body {
     font-weight: 200;
 }
 
-/* TODO: Remove default link behavior to have it show in color #008C00 */
 a span {
-  font-size: 2em;
   text-decoration: none;
+  color: #008C00;
+  font-weight: bold;
 }
 
 /* Custom Button Styles */
@@ -107,3 +112,6 @@ h2 span {
 .pku-statistic {
     margin-bottom: 30px;
 }
+
+/* Main Content */
+
