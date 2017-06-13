@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="632594e7-8ec3-468c-8037-8c08eafb8631" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mainsite/static/css/about_pku.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/mainsite/static/css/about_pku.css" afterPath="$PROJECT_DIR$/mainsite/static/css/about.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mainsite/static/css/homepage.css" afterPath="$PROJECT_DIR$/mainsite/static/css/homepage.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mainsite/static/css/main.css" afterPath="$PROJECT_DIR$/mainsite/static/css/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mainsite/templates/about_pku.html" afterPath="$PROJECT_DIR$/mainsite/templates/about_pku.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mainsite/templates/about_us.html" afterPath="$PROJECT_DIR$/mainsite/templates/about_us.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -22,7 +21,7 @@
         <entry file="file://$PROJECT_DIR$/mainsite/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="267">
-              <caret line="112" column="45" lean-forward="false" selection-start-line="112" selection-start-column="45" selection-end-line="112" selection-end-column="45" />
+              <caret line="112" column="45" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="132" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -31,18 +30,28 @@
       <file leaf-file-name="about_pku.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mainsite/templates/about_pku.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="39" column="29" lean-forward="true" selection-start-line="39" selection-start-column="29" selection-end-line="39" selection-end-column="29" />
+            <state relative-caret-position="645">
+              <caret line="24" column="14" lean-forward="false" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="about_pku.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/mainsite/static/css/about_pku.css">
+      <file leaf-file-name="about_us.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mainsite/templates/about_us.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="594">
-              <caret line="46" column="1" lean-forward="true" selection-start-line="46" selection-start-column="1" selection-end-line="46" selection-end-column="1" />
+            <state relative-caret-position="607">
+              <caret line="25" column="13" lean-forward="true" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="about.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mainsite/static/css/about.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="435">
+              <caret line="29" column="21" lean-forward="true" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -133,7 +142,9 @@
         <option value="$PROJECT_DIR$/mainsite/static/css/homepage.css" />
         <option value="$PROJECT_DIR$/mainsite/static/css/main.css" />
         <option value="$PROJECT_DIR$/mainsite/static/css/about_pku.css" />
+        <option value="$PROJECT_DIR$/mainsite/templates/about_us.html" />
         <option value="$PROJECT_DIR$/mainsite/templates/about_pku.html" />
+        <option value="$PROJECT_DIR$/mainsite/static/css/about.css" />
       </list>
     </option>
   </component>
@@ -495,6 +506,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -741,13 +753,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/requirements.txt" />
-    <entry file="file://$PROJECT_DIR$/mainsite/templates/about_us.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mainsite/templates/private_policy.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -844,7 +849,7 @@
     <entry file="file://$PROJECT_DIR$/mainsite/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="267">
-          <caret line="112" column="45" lean-forward="false" selection-start-line="112" selection-start-column="45" selection-end-line="112" selection-end-column="45" />
+          <caret line="112" column="45" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="132" selection-end-column="7" />
           <folding />
         </state>
       </provider>
@@ -859,16 +864,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mainsite/templates/about_pku.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="39" column="29" lean-forward="true" selection-start-line="39" selection-start-column="29" selection-end-line="39" selection-end-column="29" />
+        <state relative-caret-position="645">
+          <caret line="24" column="14" lean-forward="false" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mainsite/static/css/about_pku.css">
+    <entry file="file://$PROJECT_DIR$/mainsite/static/css/about.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="46" column="1" lean-forward="true" selection-start-line="46" selection-start-column="1" selection-end-line="46" selection-end-column="1" />
+        <state relative-caret-position="435">
+          <caret line="29" column="21" lean-forward="true" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mainsite/templates/about_us.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="607">
+          <caret line="25" column="13" lean-forward="true" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
           <folding />
         </state>
       </provider>
