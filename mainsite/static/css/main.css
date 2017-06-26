@@ -74,11 +74,12 @@ hr.small {
 .navbar-brand {
   padding: 0px;
 }
+
 .navbar-brand > img {
-  height: 20px;
-  padding: 15px;
-  width: auto;
+  height: 30px;
+
 }
+
 /*  End navbar  */
 
 /*  Footer  */
