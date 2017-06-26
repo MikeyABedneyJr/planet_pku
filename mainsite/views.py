@@ -33,7 +33,19 @@ def view_recipe(request):
     return render(request, 'view_recipe.html')
 
 def login(request):
+    if request.POST:
+        email = request.POST['email']
+        username = request.POST['username']
+        password = request.POST['password']
+        user = User.objects.create_user(username=username, password=password, email=email)
+        user.save()
+        profile = UserProfile()
+        profile.user = user
+
+        profile.save()
+        return HttpResponseRedirect('index.html')
     return render(request, 'login.html')
 
-def register(request):
-    return render(request, 'register.html')
+# TODO: Might not need this. Check settings.py
+def logout(request):
+    return render(request, 'index.html')

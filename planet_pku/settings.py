@@ -123,3 +123,5 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 
+    # TODO: Is this redirect needed? See urls.py & views.py for logout view
+LOGIN_REDIRECT_URL = 'index'
