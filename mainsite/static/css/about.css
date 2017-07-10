@@ -1,10 +1,14 @@
+/* General */
+#pku-other-resources a:hover, #pku-other-resources a:focus{
+	text-decoration: none;
+	color:#008C00;
+}
+
 /* Header */
 
 .header {
-    display: table;
     position: relative;
     width: 100%;
-    height: 100%;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -42,8 +46,6 @@
 
 /* Other PKU Resources */
 
-
-
 .pku-other-resources .row {
   margin-right: 0px;
   margin-left: 0px;
@@ -51,4 +53,12 @@
 
 .pku-resources {
     margin-bottom: 30px;
+}
+
+/* Ad at bottom */
+
+#ad-about-pages {
+  width: 655px;
+  margin: auto;
+  padding-bottom: 20px;
 }
