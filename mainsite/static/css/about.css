@@ -1,5 +1,5 @@
 /* General */
-#pku-other-resources a:hover, #pku-other-resources a:focus{
+#pku-other-resources a:hover, #pku-other-resources a:focus, #pku-other-resources a:visited{
 	text-decoration: none;
 	color:#008C00;
 }
