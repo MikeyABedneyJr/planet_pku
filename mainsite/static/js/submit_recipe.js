@@ -7,13 +7,13 @@ $(document).ready(function() {
             validating: 'glyphicon glyphicon-refresh'
         },
         fields: {
-            first_name: {
+            recipe_name: {
                 validators: {
                         stringLength: {
                         min: 2,
                     },
                         notEmpty: {
-                        message: 'Please supply your first name'
+                        message: 'Please supply the recipe name'
                     }
                 }
             },
