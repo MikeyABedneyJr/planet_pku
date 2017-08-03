@@ -17,6 +17,51 @@ $(document).ready(function() {
                     }
                 }
             },
+            prep_time: {
+                validators: {
+                    notEmpty: {
+                        message: 'Please supply the time it takes to to prepare ingredients'
+                    },
+                }
+            },
+            cook_time: {
+                validators: {
+                    notEmpty: {
+                        message: 'Please supply the time it takes to cook ingredients'
+                    },
+                }
+            },
+            serving_size: {
+                validators: {
+                    notEmpty: {
+                        message: 'Please supply the number of people this recipe serves'
+                    },
+                }
+            },
+            difficulty: {
+                validators: {
+                    notEmpty: {
+                        message: 'Please select difficulty level'
+                    }
+                }
+            },
+            meal_course: {
+                validators: {
+                    notEmpty: {
+                        message: 'Please select the primary course this recipe would be used for'
+                    }
+                }
+            },
+            phe_amount: {
+                validators: {
+                    notEmpty: {
+                        message: 'Please enter exact amount of phe for this recipe (in grams)'
+                    },
+                }
+            },
+
+
+
              last_name: {
                 validators: {
                      stringLength: {
@@ -65,13 +110,6 @@ $(document).ready(function() {
                     },
                     notEmpty: {
                         message: 'Please supply your city'
-                    }
-                }
-            },
-            state: {
-                validators: {
-                    notEmpty: {
-                        message: 'Please select your state'
                     }
                 }
             },
