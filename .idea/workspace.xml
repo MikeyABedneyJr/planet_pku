@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="632594e7-8ec3-468c-8037-8c08eafb8631" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mainsite/static/css/submit_recipe.css" afterPath="$PROJECT_DIR$/mainsite/static/css/submit_recipe.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mainsite/static/js/submit_recipe.js" afterPath="$PROJECT_DIR$/mainsite/static/js/submit_recipe.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mainsite/templates/submit_recipe.html" afterPath="$PROJECT_DIR$/mainsite/templates/submit_recipe.html" />
     </list>
@@ -17,21 +15,21 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="submit_recipe.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="submit_recipe.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mainsite/templates/submit_recipe.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1842">
-              <caret line="140" column="10" lean-forward="true" selection-start-line="140" selection-start-column="10" selection-end-line="140" selection-end-column="10" />
+            <state relative-caret-position="607">
+              <caret line="214" column="0" lean-forward="false" selection-start-line="214" selection-start-column="0" selection-end-line="214" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="submit_recipe.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="submit_recipe.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mainsite/static/js/submit_recipe.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="29" column="68" lean-forward="false" selection-start-line="29" selection-start-column="68" selection-end-line="29" selection-end-column="68" />
+            <state relative-caret-position="421">
+              <caret line="147" column="35" lean-forward="true" selection-start-line="147" selection-start-column="35" selection-end-line="147" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -98,6 +96,7 @@
       <find>form</find>
       <find>&lt;/form&gt;</find>
       <find>control`</find>
+      <find>description</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -141,16 +140,16 @@
         <option value="$PROJECT_DIR$/mainsite/static/css/about.css" />
         <option value="$PROJECT_DIR$/mainsite/templates/about_pku.html" />
         <option value="$PROJECT_DIR$/mainsite/templates/base.html" />
-        <option value="$PROJECT_DIR$/mainsite/templates/submit_recipe.html" />
         <option value="$PROJECT_DIR$/mainsite/static/css/submit_recipe.css" />
         <option value="$PROJECT_DIR$/mainsite/static/js/submit_recipe.js" />
+        <option value="$PROJECT_DIR$/mainsite/templates/submit_recipe.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="193" />
+    <option name="x" value="294" />
     <option name="y" value="23" />
-    <option name="width" value="1225" />
+    <option name="width" value="1146" />
     <option name="height" value="838" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -427,10 +426,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="193" y="23" width="1225" height="838" extended-state="0" />
+    <frame x="294" y="23" width="1146" height="838" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19695689" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21105072" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -801,18 +800,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mainsite/templates/submit_recipe.html">
+    <entry file="file://$PROJECT_DIR$/mainsite/static/js/submit_recipe.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1842">
-          <caret line="140" column="10" lean-forward="true" selection-start-line="140" selection-start-column="10" selection-end-line="140" selection-end-column="10" />
+        <state relative-caret-position="421">
+          <caret line="147" column="35" lean-forward="true" selection-start-line="147" selection-start-column="35" selection-end-line="147" selection-end-column="35" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mainsite/static/js/submit_recipe.js">
+    <entry file="file://$PROJECT_DIR$/mainsite/templates/submit_recipe.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="29" column="68" lean-forward="false" selection-start-line="29" selection-start-column="68" selection-end-line="29" selection-end-column="68" />
+        <state relative-caret-position="607">
+          <caret line="214" column="0" lean-forward="false" selection-start-line="214" selection-start-column="0" selection-end-line="214" selection-end-column="0" />
           <folding />
         </state>
       </provider>

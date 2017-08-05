@@ -59,6 +59,18 @@ $(document).ready(function() {
                     },
                 }
             },
+            recipe_description: {
+                validators: {
+                      stringLength: {
+                        min: 10,
+                        max: 200,
+                        message:'Please enter at least 10 characters and no more than 200'
+                    },
+                    notEmpty: {
+                        message: 'Please supply a description of your recipe'
+                    }
+                    }
+                }
 
 
 
@@ -124,20 +136,23 @@ $(document).ready(function() {
                     }
                 }
             },
-            comment: {
-                validators: {
-                      stringLength: {
-                        min: 10,
-                        max: 200,
-                        message:'Please enter at least 10 characters and no more than 200'
-                    },
-                    notEmpty: {
-                        message: 'Please supply a description of your project'
-                    }
-                    }
-                }
+
             }
         })
+
+        // Image upload
+        $("#input-image").fileinput({
+          maxFileCount: 1,
+          showPreview = true,
+          allowedFileExtensions: ["jpg", "png", "gif"],
+          maxFilePreviewSize: 1000,
+          minImageWidth: 100,
+          minImageHeight: 100,
+          maxImageWidth: 1000,
+          maxImageHeight: 1000,
+        });
+
+
         .on('success.form.bv', function(e) {
             $('#success_message').slideDown({ opacity: "show" }, "slow") // Do something ...
                 $('#contact_form').data('bootstrapValidator').resetForm();

@@ -140,7 +140,55 @@
 		  </label>
 		</div>
 	</div>
-<br><br><br><br><br><br>
+
+  <!--TODO: Change from 200 CHARACTERS to 200 word limit-->
+<!--Description-->
+<h2>Description</h2>
+<p>Provide a short description of this recipe</p>
+  <div class="row">
+    <div class="form-group">
+      <label class="col-md-4 control-label">Recipe Description</label>
+        <div class="col-md-4 inputGroupContainer">
+          <div class="input-group">
+              <span class="input-group-addon"><i class="glyphicon glyphicon-pencil"></i></span>
+                <textarea class="form-control" name="recipe_description"
+                          placeholder="200 character limit"></textarea>
+          </div>
+        </div>
+    </div>
+  </div>
+
+
+<!--Instructions-->
+<h2>Instructions</h2>
+<p>(Enter instructions one step at a time)</p>
+<form id="contact_form">
+  <div class="row">
+  <!--TODO: Ability to add new recipe steps-->
+  </div>
+</form>
+
+<!--Ingredients-->
+<h2>Ingredients</h2>
+
+
+<!--Nutritional Elements-->
+<h2>Nutritional Elements</h2>
+
+<!--Image Upload-->
+<h2>Image of meal</h2>
+<p>Include an image of your recipe.</p>
+<p>Image requirements:</p>
+  <ol>
+    <li>Format: png, jpeg, gif</li>
+    <li>Size: Less than 1 MB</li>
+    <li>Width/height: Each must be bigger than 100px but less than 1000px</li>
+  </ol>
+  <label class="control-label">Select File</label>
+    <input id="input-image" name="input_image[]" type="file" multiple class="file-loading">
+
+  <br><br><br>
+
 
   <!-- Success message -->
     <div class="alert alert-success" role="alert" id="success_message">Success <i class="glyphicon glyphicon-thumbs-up"></i> Thank you for adding this recipe!</div>
@@ -153,197 +201,8 @@
           <span class="glyphicon glyphicon-send"></span></button>
       </div>
     </div>
+<br><br><br>
 
-
-    <!--<div class="container">-->
-      <!--<div class="row">-->
-        <!--<div class="col">-->
-          <!--<div class="form-group">-->
-            <!--<label class="col-md-4 control-label">Preparation Time (minutes)</label>-->
-              <!--<div class="col-md-4 inputGroupContainer">-->
-                <!--<div class="input-group">-->
-                  <!--<span class="input-group-addon"><i class="glyphicon glyphicon-home"></i></span>-->
-                  <!--<input name="prep_time" placeholder="Preparation Time" class="form-control"  type="number">-->
-                <!--</div>-->
-              <!--</div>-->
-          <!--</div>-->
-        <!--</div>-->
-        <!--<div class="col">-->
-          <!--<div class="form-group">-->
-            <!--<label class="col-md-4 control-label">Cook Time (minutes)</label>-->
-              <!--<div class="col-md-4 inputGroupContainer">-->
-                <!--<div class="input-group">-->
-                  <!--<span class="input-group-addon"><i class="glyphicon glyphicon-home"></i></span>-->
-                  <!--<input name="cook_time" placeholder="Cook Time" class="form-control"  type="number">-->
-                <!--</div>-->
-              <!--</div>-->
-          <!--</div>-->
-        <!--</div>-->
-        <!--<div class="col">-->
-          <!--<div class="form-group">-->
-            <!--<label class="col-md-4 control-label">Serving size (people)</label>-->
-              <!--<div class="col-md-4 inputGroupContainer">-->
-                <!--<div class="input-group">-->
-                  <!--<span class="input-group-addon"><i class="glyphicon glyphicon-home"></i></span>-->
-                  <!--<input name="service_size" placeholder="Serving Size" class="form-control"  type="number">-->
-                <!--</div>-->
-              <!--</div>-->
-          <!--</div>-->
-        <!--</div>-->
-      <!--</div>-->
-    <!--</div>-->
-
-    <!--<div class="form-group">-->
-      <!--<div class="checkbox">-->
-        <!--When would you eat this meal?<br>Check all that apply:-->
-        <!--<label>-->
-          <!--<input type="checkbox" id="terms" data-error="Before you wreck yourself" required>-->
-          <!--Breakfast-->
-          <!--<input type="checkbox" id="terms" data-error="Before you wreck yourself" required>-->
-          <!--Brunch-->
-        <!--</label>-->
-        <!--<div class="help-block with-errors"></div>-->
-      <!--</div>-->
-    <!--</div>-->
-    <!--&lt;!&ndash; Text input&ndash;&gt;-->
-
-    <!--<div class="form-group">-->
-      <!--<label class="col-md-4 control-label" >Last Name</label>-->
-        <!--<div class="col-md-4 inputGroupContainer">-->
-        <!--<div class="input-group">-->
-      <!--<span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>-->
-      <!--<input name="last_name" placeholder="Last Name" class="form-control"  type="text">-->
-        <!--</div>-->
-      <!--</div>-->
-    <!--</div>-->
-
-    <!--&lt;!&ndash; Text input&ndash;&gt;-->
-           <!--<div class="form-group">-->
-      <!--<label class="col-md-4 control-label">E-Mail</label>-->
-        <!--<div class="col-md-4 inputGroupContainer">-->
-        <!--<div class="input-group">-->
-            <!--<span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>-->
-      <!--<input name="email" placeholder="E-Mail Address" class="form-control"  type="text">-->
-        <!--</div>-->
-      <!--</div>-->
-    <!--</div>-->
-
-
-    <!--&lt;!&ndash; Text input&ndash;&gt;-->
-
-    <!--<div class="form-group">-->
-      <!--<label class="col-md-4 control-label">Phone #</label>-->
-        <!--<div class="col-md-4 inputGroupContainer">-->
-        <!--<div class="input-group">-->
-            <!--<span class="input-group-addon"><i class="glyphicon glyphicon-earphone"></i></span>-->
-      <!--<input name="phone" placeholder="(845)555-1212" class="form-control" type="text">-->
-        <!--</div>-->
-      <!--</div>-->
-    <!--</div>-->
-
-    <!--&lt;!&ndash; Text input&ndash;&gt;-->
-
-    <!--<div class="form-group">-->
-      <!--<label class="col-md-4 control-label">Address</label>-->
-        <!--<div class="col-md-4 inputGroupContainer">-->
-        <!--<div class="input-group">-->
-            <!--<span class="input-group-addon"><i class="glyphicon glyphicon-home"></i></span>-->
-      <!--<input name="address" placeholder="Address" class="form-control" type="text">-->
-        <!--</div>-->
-      <!--</div>-->
-    <!--</div>-->
-
-    <!--&lt;!&ndash; Text input&ndash;&gt;-->
-
-    <!--<div class="form-group">-->
-      <!--<label class="col-md-4 control-label">City</label>-->
-        <!--<div class="col-md-4 inputGroupContainer">-->
-        <!--<div class="input-group">-->
-            <!--<span class="input-group-addon"><i class="glyphicon glyphicon-home"></i></span>-->
-      <!--<input name="city" placeholder="city" class="form-control"  type="text">-->
-        <!--</div>-->
-      <!--</div>-->
-    <!--</div>-->
-
-    <!--&lt;!&ndash; Select Basic &ndash;&gt;-->
-
-    <!--<div class="form-group">-->
-      <!--<label class="col-md-4 control-label">State</label>-->
-        <!--<div class="col-md-4 selectContainer">-->
-        <!--<div class="input-group">-->
-            <!--<span class="input-group-addon"><i class="glyphicon glyphicon-list"></i></span>-->
-        <!--<select name="state" class="form-control selectpicker" >-->
-          <!--<option value=" " >Select the level of difficulty</option>-->
-          <!--<option>Easy</option>-->
-          <!--<option>Moderate</option>-->
-          <!--<option >Difficult</option>-->
-        <!--</select>-->
-      <!--</div>-->
-    <!--</div>-->
-    <!--</div>-->
-
-    <!--&lt;!&ndash; Text input&ndash;&gt;-->
-
-    <!--<div class="form-group">-->
-      <!--<label class="col-md-4 control-label">Zip Code</label>-->
-        <!--<div class="col-md-4 inputGroupContainer">-->
-        <!--<div class="input-group">-->
-            <!--<span class="input-group-addon"><i class="glyphicon glyphicon-home"></i></span>-->
-      <!--<input name="zip" placeholder="Zip Code" class="form-control"  type="text">-->
-        <!--</div>-->
-    <!--</div>-->
-    <!--</div>-->
-
-    <!--&lt;!&ndash; Text input&ndash;&gt;-->
-    <!--<div class="form-group">-->
-      <!--<label class="col-md-4 control-label">Website or domain name</label>-->
-       <!--<div class="col-md-4 inputGroupContainer">-->
-        <!--<div class="input-group">-->
-            <!--<span class="input-group-addon"><i class="glyphicon glyphicon-globe"></i></span>-->
-      <!--<input name="website" placeholder="Website or domain name" class="form-control" type="text">-->
-        <!--</div>-->
-      <!--</div>-->
-    <!--</div>-->
-
-    <!--&lt;!&ndash; radio checks &ndash;&gt;-->
-     <!--<div class="form-group">-->
-                            <!--<label class="col-md-4 control-label">Do you have hosting?</label>-->
-                            <!--<div class="col-md-4">-->
-                                <!--<div class="radio">-->
-                                    <!--<label>-->
-                                        <!--<input type="radio" name="hosting" value="yes" /> Yes-->
-                                    <!--</label>-->
-                                <!--</div>-->
-                                <!--<div class="radio">-->
-                                    <!--<label>-->
-                                        <!--<input type="radio" name="hosting" value="no" /> No-->
-                                    <!--</label>-->
-                                <!--</div>-->
-                            <!--</div>-->
-                        <!--</div>-->
-
-    <!--&lt;!&ndash; Text area &ndash;&gt;-->
-
-    <!--<div class="form-group">-->
-      <!--<label class="col-md-4 control-label">Project Description</label>-->
-        <!--<div class="col-md-4 inputGroupContainer">-->
-        <!--<div class="input-group">-->
-            <!--<span class="input-group-addon"><i class="glyphicon glyphicon-pencil"></i></span>-->
-              <!--<textarea class="form-control" name="comment" placeholder="Project Description"></textarea>-->
-      <!--</div>-->
-      <!--</div>-->
-    <!--</div>-->
-
-    <!--&lt;!&ndash; Success message &ndash;&gt;-->
-    <!--<div class="alert alert-success" role="alert" id="success_message">Success <i class="glyphicon glyphicon-thumbs-up"></i> Thanks for contacting us, we will get back to you shortly.</div>-->
-
-    <!--&lt;!&ndash; Button &ndash;&gt;-->
-    <!--<div class="form-group">-->
-      <!--<label class="col-md-4 control-label"></label>-->
-      <!--<div class="col-md-4">-->
-        <!--<button type="submit" class="btn btn-warning" >Send <span class="glyphicon glyphicon-send"></span></button>-->
-      <!--</div>-->
-    <!--</div>-->
 </form>
 
 
@@ -351,6 +210,7 @@
 <script src='http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js'></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-validator/0.4.5/js/bootstrapvalidator.min.js"></script>
 <script src="/static/js/submit_recipe.js"></script>
+
 {% endblock %}
 </body>
 </html>
