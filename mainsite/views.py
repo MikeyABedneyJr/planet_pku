@@ -46,6 +46,9 @@ def login(request):
         return HttpResponseRedirect('index.html')
     return render(request, 'login.html')
 
+def edit_profile(request):
+    return render(request, 'edit_profile.html')
+
 # TODO: Might not need this. Check settings.py
 def logout(request):
     return render(request, 'index.html')

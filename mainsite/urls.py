@@ -13,6 +13,7 @@ urlpatterns = [
     url(r'^user_agreement', views.user_agreement, name='user_agreement'),
     url(r'^view_recipe', views.view_recipe, name='view_recipe'),
     url(r'^login', views.login, name='login'),
+    url(r'^edit_profile', views.edit_profile, name='edit_profile'),
 
     # TODO: Is the logout reroute needed? See settings.py at bottom
     url(r'^logout/$', views.logout, {'next_page': '/'}, name='logout'),

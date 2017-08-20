@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Edit Profile</title>
+  <link href="/static/css/edit_profile.css" rel="stylesheet">
+</head>
+<body>
+{% extends 'base.html' %}
+
+{% block content %}
+    <P ALIGN=Center><h2>Update your profile</h2></P ALIGN=Center>
+
+
+<!-- markup -->
+<!-- note: your server code `avatar_upload.php` will receive `$_FILES['avatar']` on form submission -->
+<!-- the avatar markup -->
+<div id="kv-avatar-errors-2" class="center-block" style="width:800px;display:none"></div>
+<form class="form form-vertical" action="/avatar_upload.php" method="post" enctype="multipart/form-data">
+    <div class="row">
+        <div class="col-sm-4">
+            <div class="kv-avatar center-block text-center" style="width:200px">
+                <input id="avatar-2" name="avatar-2" type="file" class="file-loading" required>
+            </div>
+        </div>
+        <div class="col-sm-8">
+                  <div class="row">
+            <div class="col-sm-6">
+              <div class="form-group">
+                <label for="email">Email Address<span class="kv-reqd">*</span></label>
+                <input type="email" class="form-control" id="email" name="email" required>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="form-group">
+                <label for="pwd">Password<span class="kv-reqd">*</span></label>
+                <input type="password" class="form-control" id="pwd" name="pwd" required>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-6">
+              <div class="form-group">
+                <label for="fname">First Name</label>
+                <input type="text" class="form-control" id="fname" name="fname" required>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="form-group">
+                <label for="lname">Last Name</label>
+                <input type="text" class="form-control" id="lname" name="lname" required>
+              </div>
+            </div>
+          </div>
+          <div class="form-group">
+            <hr>
+            <div class="text-right">
+              <button type="submit" class="btn btn-primary">Save Changes</button>
+            </div>
+          </div>
+        </div>
+    </div>
+</form>
+</div>
+<!--<div class="value">-->
+    <!--Email: <input value="{{ profile.email }}"/><br>-->
+    <!--First name: <input value="{{ profile.firstname }}"/><br>-->
+    <!--Last name: <input value="{{ profile.lastname }}"/><br>-->
+<!--{#    Password: <input value="{{ profile.password }}"/><br>#}-->
+<!--{#    Gender = <select value="">#}-->
+<!--{#      <option>Female</option>#}-->
+<!--{#      <option>Male</option>#}-->
+<!--{#      <option>Transgendered</option>#}-->
+<!--{#      <option>Prefer not to answer</option></select><br>#}-->
+
+    <!--Website: <input value="{{ profile.website }}"/><br>-->
+    <!--Facebook page: <input value="{{ profile.facebook }}"/><br>-->
+    <!--Twitter: <input value="{{ profile.twitter }}"/><br>-->
+    <!--LinkedIn: <input value="{{ profile.linkedin }}"/><br>-->
+
+<script src="/static/js/edit_profile.js"></script>
+{% endblock %}
+</body>
+</html>

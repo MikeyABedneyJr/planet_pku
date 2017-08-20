@@ -74,68 +74,68 @@ $(document).ready(function() {
 
 
 
-             last_name: {
-                validators: {
-                     stringLength: {
-                        min: 2,
-                    },
-                    notEmpty: {
-                        message: 'Please supply your last name'
-                    }
-                }
-            },
-            email: {
-                validators: {
-                    notEmpty: {
-                        message: 'Please supply your email address'
-                    },
-                    emailAddress: {
-                        message: 'Please supply a valid email address'
-                    }
-                }
-            },
-            phone: {
-                validators: {
-                    notEmpty: {
-                        message: 'Please supply your phone number'
-                    },
-                    phone: {
-                        country: 'US',
-                        message: 'Please supply a vaild phone number with area code'
-                    }
-                }
-            },
-            address: {
-                validators: {
-                     stringLength: {
-                        min: 8,
-                    },
-                    notEmpty: {
-                        message: 'Please supply your street address'
-                    }
-                }
-            },
-            city: {
-                validators: {
-                     stringLength: {
-                        min: 4,
-                    },
-                    notEmpty: {
-                        message: 'Please supply your city'
-                    }
-                }
-            },
-            zip: {
-                validators: {
-                    notEmpty: {
-                        message: 'Please supply your zip code'
-                    },
-                    zipCode: {
-                        country: 'US',
-                        message: 'Please supply a vaild zip code'
-                    }
-                }
-            },
+//             last_name: {
+//                validators: {
+//                     stringLength: {
+//                        min: 2,
+//                    },
+//                    notEmpty: {
+//                        message: 'Please supply your last name'
+//                    }
+//                }
+//            },
+//            email: {
+//                validators: {
+//                    notEmpty: {
+//                        message: 'Please supply your email address'
+//                    },
+//                    emailAddress: {
+//                        message: 'Please supply a valid email address'
+//                    }
+//                }
+//            },
+//            phone: {
+//                validators: {
+//                    notEmpty: {
+//                        message: 'Please supply your phone number'
+//                    },
+//                    phone: {
+//                        country: 'US',
+//                        message: 'Please supply a vaild phone number with area code'
+//                    }
+//                }
+//            },
+//            address: {
+//                validators: {
+//                     stringLength: {
+//                        min: 8,
+//                    },
+//                    notEmpty: {
+//                        message: 'Please supply your street address'
+//                    }
+//                }
+//            },
+//            city: {
+//                validators: {
+//                     stringLength: {
+//                        min: 4,
+//                    },
+//                    notEmpty: {
+//                        message: 'Please supply your city'
+//                    }
+//                }
+//            },
+//            zip: {
+//                validators: {
+//                    notEmpty: {
+//                        message: 'Please supply your zip code'
+//                    },
+//                    zipCode: {
+//                        country: 'US',
+//                        message: 'Please supply a vaild zip code'
+//                    }
+//                }
+//            },
 
             }
         })

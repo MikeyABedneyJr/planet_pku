@@ -1,3 +1,18 @@
 #success_message {
   display: none;
 }
+
+#no-margin{
+  margin: 10px 0px;
+}
+
+/* Plus button to add more */
+.entry:not(:first-of-type)
+{
+    margin-top: 10px;
+}
+
+.glyphicon
+{
+    font-size: 12px;
+}
