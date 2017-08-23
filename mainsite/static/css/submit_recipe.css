@@ -6,6 +6,15 @@
   margin: 10px 0px;
 }
 
+.no-left-padding .col-sm-5 {
+  padding-left: 0px;
+  padding-bottom: 15px;
+}
+
+.no-left-padding .col-sm-10 {
+  padding-left: 0px;
+  padding-bottom: 15px;
+}
 /* Plus button to add more */
 .entry:not(:first-of-type)
 {

@@ -143,6 +143,8 @@ $(document).ready(function() {
         // Image upload
         $("#input-image").fileinput({
           maxFileCount: 1,
+          showUploadedThumbs = true,
+          maxFileCount = true,
           showPreview = true,
           allowedFileExtensions: ["jpg", "png", "gif"],
           maxFilePreviewSize: 1000,

@@ -166,48 +166,90 @@
 
   <!--Instructions-->
   <h2>Instructions</h2>
-  <p>(Enter instructions one step at a time)</p>
-  <form id="contact_form">
-    <div class="row">
-    <!--TODO: Ability to add new recipe steps-->
+   <div class="container">
+      <div class="row">
+        <div class="no-left-padding">
+          <div class="col-sm-10">
+            <input name="instructions" placeholder="List instruction here" class="form-control">
+          </div>
+        </div>
+        <div class="col-sm-2">
+            <button class="btn btn-success btn-add" type="button">-</button>
+          </div>
+      </div>
+      <span class="input-group-btn">
+          <button class="btn btn-success btn-add" type="button">Add another step</button>
+      </span>
     </div>
-  </form>
 
   <!--Ingredients-->
   <h2>Ingredients</h2>
-    <div class="controls">
-        <form role="form" autocomplete="off">
-            <div class="entry input-group col-xs-3">
-                <input class="form-control" name="fields[]" type="text" placeholder="Type something" />
-              <span class="input-group-btn">
-                    <button class="btn btn-success btn-add" type="button">
-                        <span class="glyphicon glyphicon-plus"></span>
-                    </button>
-                </span>
-            </div>
-        </form>
-    <br>
-    <small>Press <span class="glyphicon glyphicon-plus gs"></span> to add another form field</small>
+    <div class="container">
+      <div class="row">
+        <div class="no-left-padding">
+          <div class="col-sm-5">
+            <input name="ingredient_name" placeholder="Ingredient" class="form-control">
+          </div>
+          <div class="col-sm-2">
+            <input name="ingredient_quantity" placeholder="Quantity" class="form-control"  type="number">
+          </div>
+          <div class="col-sm-3">
+            <select name="ingredient_unit" class="form-control selectpicker" >
+              <option value="ingredient_unit" disabled selected>Select unit of measurement</option>
+              <option>teaspoon</option>
+              <option>tablespoon</option>
+              <option>cup</option>
+              <option>quart</option>
+              <option>gallon</option>
+              <option>ounces</option>
+              <option>pounds</option>
+            </select>
+          </div>
+        </div>
+        <div class="col-sm-2">
+            <button class="btn btn-success btn-add" type="button">-</button>
+          </div>
+      </div>
+      <span class="input-group-btn">
+          <button class="btn btn-success btn-add" type="button">Add another ingredient</button>
+      </span>
     </div>
-
 
   <!--Nutritional Elements-->
   <h2>Nutritional Elements</h2>
-    <div class="controls">
-          <form role="form" autocomplete="off">
-              <div class="entry input-group col-xs-3">
-                  <input class="form-control" name="fields[]" type="text" placeholder="Type something" />
-                <span class="input-group-btn">
-                      <button class="btn btn-success btn-add" type="button">
-                          <span class="glyphicon glyphicon-plus"></span>
-                      </button>
-                  </span>
-              </div>
-          </form>
-      <br>
-      <small>Press <span class="glyphicon glyphicon-plus gs"></span> to add another form field</small>
+    <div class="container">
+      <div class="row">
+        <div class="no-left-padding">
+          <div class="col-sm-5">
+            <input name="nutritional_element" placeholder="Nutritional element" class="form-control">
+          </div>
+          <div class="col-sm-2">
+            <input name="ingredient_quantity" placeholder="quantity" class="form-control"  type="number">
+          </div>
+          <div class="col-sm-3">
+            <select name="ingredient_unit" class="form-control selectpicker" >
+              <option value="ingredient_unit" disabled selected>Select nutritional unit</option>
+              <option>calories</option>
+              <option>fat</option>
+              <option>fiber</option>
+              <option>phe</option>
+              <option>protein</option>
+              <option>sodium</option>
+              <option>salt</option>
+            </select>
+          </div>
+          <div class="col-sm-2">
+            <button class="btn btn-success btn-add" type="button">-</button>
+          </div>
+        </div>
+
+      </div>
+      <span class="input-group-btn">
+          <button class="btn btn-success btn-add" type="button">Add another nutritional element</button>
+      </span>
     </div>
-    
+
+
   <!--Image Upload-->
   <h2>Image of meal</h2>
   <p>Include an image of your recipe.</p>
