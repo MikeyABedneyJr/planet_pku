@@ -15,7 +15,8 @@
   padding-left: 0px;
   padding-bottom: 15px;
 }
-/* Plus button to add more */
+
+/* Button to add more instructions/ingredients/nutritional elements */
 .entry:not(:first-of-type)
 {
     margin-top: 10px;

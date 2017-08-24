@@ -140,20 +140,21 @@ $(document).ready(function() {
             }
         })
 
-        // Image upload
-        $("#input-image").fileinput({
-          maxFileCount: 1,
-          showUploadedThumbs = true,
-          maxFileCount = true,
-          showPreview = true,
-          allowedFileExtensions: ["jpg", "png", "gif"],
-          maxFilePreviewSize: 1000,
-          minImageWidth: 100,
-          minImageHeight: 100,
-          maxImageWidth: 1000,
-          maxImageHeight: 1000,
-        });
 
+
+        // Image upload
+//        $("#input-image").fileinput({
+//          maxFileCount: 1,
+//          showUploadedThumbs = true,
+//          maxFileCount = true,
+//          showPreview = true,
+//          allowedFileExtensions: ["jpg", "png", "gif"],
+//          maxFilePreviewSize: 1000,
+//          minImageWidth: 100,
+//          minImageHeight: 100,
+//          maxImageWidth: 1000,
+//          maxImageHeight: 1000,
+//        });
 
         .on('success.form.bv', function(e) {
             $('#success_message').slideDown({ opacity: "show" }, "slow") // Do something ...
@@ -173,5 +174,30 @@ $(document).ready(function() {
                 console.log(result);
             }, 'json');
         });
+
+      // Green buttons for new rows
+      $(function() {
+          $(document).on('click', '.btn-add', function(e)
+          {
+
+              e.preventDefault();
+
+              var controlForm = $('.controls form:first'),
+                  currentEntry = $(this).parents('.entry:first'),
+                  newEntry = $(currentEntry.clone()).appendTo(controlForm);
+
+              newEntry.find('input').val('');
+              controlForm.find('.entry:not(:last) .btn-add')
+                  .removeClass('btn-add').addClass('btn-remove')
+                  .removeClass('btn-success').addClass('btn-danger')
+                  .html('<span class="glyphicon glyphicon-minus"></span>');
+          }).on('click', '.btn-remove', function(e)
+          {
+          $(this).parents('.entry:first').remove();
+
+          e.preventDefault();
+          return false;
+        });
+      });
 });
 

@@ -11,11 +11,35 @@
 
 {% block content %}
 
+<!--Practice row with javascript button to add/remove new lines-->
+<div class="container">
+	<div class="row">
+        <div class="control-group" id="fields">
+            <label class="control-label">Nice Multiple Form Fields</label>
+            <div class="controls">
+                <form role="form" autocomplete="off">
+                    <div class="entry input-group col-xs-3">
+                        <input class="form-control" name="fields[]" type="text" placeholder="Type something" />
+                    	<span class="input-group-btn">
+                            <button class="btn btn-success btn-add" type="button">
+                                <span class="glyphicon glyphicon-plus"></span>
+                            </button>
+                        </span>
+                    </div>
+                </form>
+            <br>
+            <small>Press <span class="glyphicon glyphicon-plus gs"></span> to add another form field :)</small>
+            </div>
+        </div>
+	</div>
+</div>
+<!--End practice js add/remove rows-->
+
 <div class="container">
   <!--Basics section-->
   <h2>Basics</h2>
   <p>All fields are required</p>
-  <form id="contact_form">
+  <form id="contact_form" role="form">
 
     <!-- Recipe Name -->
       <div class="form-group row">
@@ -163,6 +187,27 @@
       </div>
     </div>
 
+<!--Practice with js green buttons-->
+<div class="container">
+	<div class="row">
+        <div class="control-group" id="fields">
+            <label class="control-label">PRACTICE MULTIPLE FORM FIELDS</label>
+            <div class="controls">
+              <div class="entry input-group col-xs-3">
+                  <input class="form-control" name="fields[]" type="text" placeholder="Type something" />
+                <span class="input-group-btn">
+                  <button class="btn btn-success btn-add" type="button">
+                      <span class="glyphicon glyphicon-plus"></span>
+                  </button>
+                </span>
+              </div>
+            <br>
+            <small>Press <span class="glyphicon glyphicon-plus gs"></span> to add another form field :)</small>
+            </div>
+        </div>
+	</div>
+</div>
+<!--End practice block-->
 
   <!--Instructions-->
   <h2>Instructions</h2>
@@ -177,9 +222,6 @@
             <button class="btn btn-success btn-add" type="button">-</button>
           </div>
       </div>
-      <span class="input-group-btn">
-          <button class="btn btn-success btn-add" type="button">Add another step</button>
-      </span>
     </div>
 
   <!--Ingredients-->
