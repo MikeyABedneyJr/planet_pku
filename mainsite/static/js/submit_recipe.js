@@ -63,8 +63,8 @@ $(document).ready(function() {
                 validators: {
                       stringLength: {
                         min: 10,
-                        max: 200,
-                        message:'Please enter at least 10 characters and no more than 200'
+                        max: 1500,
+                        message:'Please enter at least 10 characters and no more than 1500'
                     },
                     notEmpty: {
                         message: 'Please supply a description of your recipe'
